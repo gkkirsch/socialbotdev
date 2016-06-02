@@ -1,0 +1,41 @@
+.profile {
+  background-color: #FFF;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 40px;
+  width: 500px;
+  font-size: 18px;
+  &__pic {
+    border: 1px solid #CACACA;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: inline-block;
+    float: left;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  &__username {
+    font-size: 18px;
+  }
+  &__name {
+    font-size: 24px;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+  &__info {
+    text-align: center;
+  }
+  &__url {
+    font-size: 14px;
+    color: #53A6D6;
+  }
+}

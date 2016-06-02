@@ -1,0 +1,75 @@
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity {
+  background-color: #FFF;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+  margin: 20px;
+  min-width: 270px;
+  flex: 1;
+  &__pic {
+    border: 1px solid #CACACA;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+  &__username {
+    font-size: 10px;
+  }
+  &__provider {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+  }
+  &__content {
+
+  }
+  &__date {
+    font-style: italic;
+    font-size: 12px;
+  }
+  &__message {
+    display: flex;
+    justify-content: center;
+  }
+  &__placeholder {
+    width: 200px;
+    height: 200px;
+  }
+  &__stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__view {
+    margin-left: auto;
+  }
+
+  &__like {
+    display: inline-block;
+    &:hover {
+      color: green;
+      cursor: pointer;
+    }
+  }
+}

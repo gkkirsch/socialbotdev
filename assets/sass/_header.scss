@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-content: center;
+  &__logo {
+    align-self: flex-start;
+    font-size: 26px;
+    padding: 20px;
+    color: #53A6D6;
+  }
+}
